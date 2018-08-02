@@ -1,0 +1,6 @@
+send("#r")
+WinWait("Run")
+Send("cmd{Enter}")
+sleep(2000)
+Send("cd Desktop\NewData{Enter}")
+Send("start index.html{Enter}")
